@@ -13,6 +13,10 @@
 
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
       <link href="./output.css" rel="stylesheet">
+      <script
+          src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
 
       <!-- Styles -->
       <style>
@@ -25,7 +29,7 @@
           display: block;
           width: 100%;
           max-width: 200px;
-          margin: 0 auto;
+          margin: 20px auto;
           
           
         }
@@ -38,102 +42,198 @@
       
 
         }
+
+        /* mobile menu css  */
+        h1 {
+          font-family: 'inherit', sans-serif;
+          color: #999;
+          padding: 10px;
+        }
+
+      .icon {
+        cursor: pointer;
+        padding: 10px;
+      }
+
+      .icon .hamburger {
+        width: 50px;
+        height: 5px;
+        background-color: #999;
+        margin-top: 5px;
+     
+        
+        
+      }
+
+      ul {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+   
+        
+      }
+
+      ul a {
+        color: #999;
+        text-decoration: none;
+      }
+
+      ul a li {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding: 10px;
+     
+        transition: all 0.3s ease;
+      }
+
+      ul a li:hover {
+        background-color: #999;
+        color: white;
+        transform: translateX(-10px);
+      }
+
+      @media only screen and (max-width: 600px) {
+        #mobile-menu {
+          display: block;
+        }
+        nav {
+          display: none;
+        }
+      }
+ 
       </style>
 
 
   </head>
   <body class="bg-gray-50">
-    <section>
-      
-    </section>
-    <section class="relative isolate px-6 pt-14 py-8 lg:px-8">
-      
-      
-      <div class="mx-auto max-w-2xl pt-10 sm:pt-16 md:pt-24 lg:pt-32">
-    <!-- opening copy  and convertkit form: BEGIN  -->
-        <div class="text-center">
-          <!-- opening copy : BEGIN  -->
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Showcase skills, attract opportunities.</h1>
-          <p class="mt-6 text-xl leading-8 text-gray-600">Having your own online portfolio can boost your visibility and credibility. Enter your name and email address below to begin creating your personalized online portfolio in minutes.
-          </p>
-          <!-- opening copy : END  -->
+     
+
+    <div class="bg-gray-50" >
+
       
 
+      <div class="bg-gray-50" >
 
-          <!-- convert kit form : BEGIN -->
-          <div id="convert-kit" class="mx-auto max-w-2xl pt-10 sm:pt-16 lg:pt-32">
-            <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
-           
+
+
+        <!-- Navigation : BEGIN  -->
+        <header id="top" class=" bg-gray-50 text-white pt-10">
+          
+          <div class="container mx-auto flex justify-between items-center">
+            <nav class="w-full ">
+              <ul class="flex space-x-8 justify-center">
+                <li><a href="index.html" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">Home</a></li>
+                <li><a href="index.html#sign-up" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">Sign Up</a></li>
+                <li><a href="index.html#how-it-works" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">How It Works</a></li>
+                
+                <li><a href="#why-choose-us" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">Why Choose Us</a></li>
+                
+              </ul>
+            </nav>
+            <div  id="mobile-menu" class="w-full  hidden">
+
+              <!-- new nav  -->
+              <div class="icon">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+              </div>
+              <ul class="menu">
+                <a href="#"><li class="w-full ">Sign Up</li></a>
+                <a href="#"><li>How It Works</li></a>
+                <a href="#"><li>Choose Us</li></a>
+                <a href="#"><li>More</li></a>
+                <a href="#"><li>Contact</li></a>
+                 
+              </ul>
+             
+              
+              <!-- new nav  -->
+            </div>
+
+
           </div>
-            <!-- convert kit form : END -->
-        </div>
-        
-      </div>
-      
-    </section>
+          
+        </header>
+        <!-- Navigation : END  -->
 
-    <!-- new section : Begin  -->
-    <!-- new section : End  -->
+        <!-- Landing section : BEGIN  -->
+        <section id="landing" class="relative isolate px-6 pt-14 py-8 lg:px-8">
+          <div class="mx-auto max-w-2xl pt-10 sm:pt-16 md:pt-24 lg:pt-32">
+            <!-- opening copy and Image : BEGIN  -->
+            <div class="text-center">
+              <!-- opening copy : BEGIN  -->
+              <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Buy My Portfolio</h1>
+              <p class="mt-6 text-xl leading-8 text-gray-600">Having your own online portfolio can boost your visibility and credibility. Enter your email below to begin creating your personalized online portfolio in minutes.
+              </p>
+              <!-- opening copy : END  -->
+          
 
-    <!-- services : BEGIN  -->
-    <section class="py-24 sm:py-32">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl lg:text-center">
+
+              <!-- Image : BEGIN -->
+              <div></div>
+                <!-- Image : END -->
+            </div>
+            <!-- opening copy and Image  : END -->
+          </div>
+        </section>
+        <!-- Landing section : BEGIN  -->
+
+
+
     
-          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:pt-20">Why Choose Us?</p>
-          <p class="mt-6 text-xl leading-8 text-gray-600">Everything you need to build and share your portfolio</p>
-        </div>
-        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-            <div class="relative pl-16">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
-                  </svg>
-                </div>
-                Simple and Effective Designs
-              </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">Showcase skills with visually stunning portfolios that highlight your unique talents.</dd>
+        <!-- Sign up : END -->
+
+        <!-- How it works: BEGIN -->
+        <section  id="how-it-works" class="py-24 sm:py-32 bg-gray-50">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:text-center">
+              <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:pt-20">How It Works</p>
+              <p class="mt-6 text-xl leading-8 text-gray-600">Discover how your portfolio is built and hosted effortlessly.</p>
             </div>
-            <div class="relative pl-16">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-                  </svg>
+            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+              <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+                <div class="relative pl-16">
+                  <dt class="text-base font-semibold leading-7 text-gray-900">
+                    <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                      <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                      </svg>
+                    </div>
+                    Choose a Design
+                  </dt>
+                  <dd class="mt-2 text-base leading-7 text-gray-600">Select a visually stunning design from our collection of templates to showcase your skills.</dd>
                 </div>
-                Customization
-              </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">Tailor your portfolio to reflect your individual style and expertise with our easy-to-use templates.</dd>
-            </div>
-            <div class="relative pl-16">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
-                  </svg>
+                <div class="relative pl-16">
+                  <dt class="text-base font-semibold leading-7 text-gray-900">
+                    <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                      <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                      </svg>
+                    </div>
+                    Personalize Your Portfolio
+                  </dt>
+                  <dd class="mt-2 text-base leading-7 text-gray-600">Customize your portfolio with your own branding, content, and style to make it uniquely yours.</dd>
                 </div>
-                We host your website 
-              </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">Streamline your online journey: domain, website, and hosting, effortlessly managed by us.</dd>
-            </div>
-            <div class="relative pl-16">
-              <dt class="text-base font-semibold leading-7 text-gray-900">
-                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
-                  </svg>
+                <div class="relative pl-16">
+                  <dt class="text-base font-semibold leading-7 text-gray-900">
+                    <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                      <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                      </svg>
+                    </div>
+                    Hosted with Ease
+                  </dt>
+                  <dd class="mt-2 text-base leading-7 text-gray-600">We handle the hosting and management of your website, so you can focus on what matters most - your content.</dd>
                 </div>
-                Support
-              </dt>
-              <dd class="mt-2 text-base leading-7 text-gray-600">We provide dedicated support every step of the way, ensuring a smooth and hassle-free experience for you.</dd>
+              </dl>
             </div>
-          </dl>
-        </div>
-      </div>
-    </section>
-    <!-- services : END  -->
+          </div>
+        </section>
+        <!-- How it works: END -->
+
+
+    <script src="js/main.js"></script>
 
   </body>
 
