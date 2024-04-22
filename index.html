@@ -92,6 +92,10 @@
         transform: translateX(-10px);
       }
 
+      h1 {
+        font-size: 80px;
+      }
+
       @media only screen and (max-width: 600px) {
         #mobile-menu {
           display: block;
@@ -99,6 +103,14 @@
         nav {
           display: none;
         }
+
+        h1 {
+        font-size: 46px;
+      }
+
+      div#title p {
+        font-size: 28px;
+      }
       }
  
       </style>
@@ -161,10 +173,10 @@
         <section id="landing" class="relative isolate px-6 pt-14 py-8 lg:px-8">
           <div class="mx-auto max-w-2xl pt-10 sm:pt-16 md:pt-24 lg:pt-32">
             <!-- opening copy and Image : BEGIN  -->
-            <div class="text-center">
+            <div id="title" class="text-center">
               <!-- opening copy : BEGIN  -->
-              <h1 class="  font-bold tracking-tight text-gray-900 text-4xl lg:text-6xl  ">Portfolio-Up</h1>
-              <p class="mt-6 text-3xl leading-10 text-gray-600  ">We build your portfolio. <br> <span style="">You</span> attract opportunities.
+              <h1 class="  font-bold tracking-tight text-gray-900  ">Portfolio-Up</h1>
+              <p class="mt-6 text-4xl leading-10 text-gray-600  ">We build your portfolio. <br> <span style="">You</span> attract opportunities.
               </p>
               <!-- opening copy : END  -->
           
