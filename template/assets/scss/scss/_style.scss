@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: $px-font;
+    font-family: $portflolio-font;
     font-weight: 500;
-    color: $px-body;
+    color: $portflolio-body;
 }
 
 img {
@@ -19,11 +19,11 @@ img {
 }
 
 a {
-    color: $px-theme;
+    color: $portflolio-theme;
     text-decoration: none;
 
     &:hover {
-        color: darken($px-theme, 8%);
+        color: darken($portflolio-theme, 8%);
         text-decoration: none;
     }
 }
@@ -38,7 +38,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: $px-theme;
+    background: $portflolio-theme;
     z-index: 99999;
 }
 
@@ -64,8 +64,8 @@ a {
             height: 46px;
             margin: 1px;
             border-radius: 50%;
-            border: 5px solid $px-white;
-            border-color: $px-white transparent $px-white transparent;
+            border: 5px solid $portflolio-white;
+            border-color: $portflolio-white transparent $portflolio-white transparent;
             animation: lds-dual-ring 1.2s linear infinite;
         }
     }
@@ -113,7 +113,7 @@ a {
     h3 {
         margin: 0;
         font-weight: 700;
-        color: $px-dark;
+        color: $portflolio-dark;
         font-size: 50px;
         @include down-sm {
             font-size: 35px;
@@ -135,8 +135,8 @@ a {
             padding: 10px 0;
             &:hover {
                 i {
-                    background: $px-dark;
-                    color: $px-dark;
+                    background: $portflolio-dark;
+                    color: $portflolio-dark;
                 }
             }
         }
@@ -210,7 +210,7 @@ a {
             text-transform: uppercase;
             letter-spacing: 2px;
             font-weight: 600;
-            color: $px-dark;
+            color: $portflolio-dark;
             margin: 0;
             display: flex;
             align-items: center;
@@ -226,7 +226,7 @@ a {
             font-weight: 900;
             font-size: 160px;
             line-height: 0.7;
-            color: $px-theme;
+            color: $portflolio-theme;
             margin-top: 26px;
             margin-bottom: 30px;
             @include down-lg {
@@ -239,14 +239,14 @@ a {
         h2 {
             font-size: 20px;
             font-weight: 600;
-            color: $px-dark;
+            color: $portflolio-dark;
             text-transform: uppercase;
             letter-spacing: 1px;
             @include down-lg {
                 font-size: 18px;
             }
             span {
-                color: $px-theme;
+                color: $portflolio-theme;
             }
         }
 
@@ -266,7 +266,7 @@ a {
         .user-img-round {
             width: 680px;
             height: 680px;
-            background-color: $px-white;
+            background-color: $portflolio-white;
             position: absolute;
             top: 0;
             left: 0;
@@ -285,7 +285,7 @@ a {
         }
     }
     .user-review {
-        background: rgba($px-white, .7);
+        background: rgba($portflolio-white, .7);
         box-shadow: 0px 48px 60px rgba(119, 118, 156, 0.3);
         border-radius: 24px;
         padding: 38px 26px;
@@ -306,7 +306,7 @@ a {
         .star-box {
             justify-content: center;
             display: flex;
-            color: $px-theme;
+            color: $portflolio-theme;
             font-size: 20px;
             margin-bottom: 15px;
             i {
@@ -317,11 +317,11 @@ a {
         p {
             font-weight: 500;
             font-size: 20px;
-            color: $px-dark;
+            color: $portflolio-dark;
         }
         h6 {
             font-size: 22px;
-            color: $px-theme;
+            color: $portflolio-theme;
             font-weight: 600;
             margin: 0;
         }
@@ -343,7 +343,7 @@ a {
         h6 {
             font-size: 18px;
             line-height: 1;
-            color: $px-theme;
+            color: $portflolio-theme;
             text-transform: uppercase;
             letter-spacing: 3px;
             margin-bottom: 15px;
@@ -352,7 +352,7 @@ a {
         h2 {
             line-height: 1;
             font-size: 48px;
-            color: $px-dark;
+            color: $portflolio-dark;
             margin-bottom: 18px;
             @include down-lg {
                 font-size: 40px;
@@ -409,7 +409,7 @@ a {
             label {
                 margin: 0;
                 font-weight: 600;
-                color: $px-dark;
+                color: $portflolio-dark;
             }
         }
     }
@@ -457,7 +457,7 @@ a {
         .count {
             font-size: 16px;
             font-weight: 600;
-            color: $px-dark;
+            color: $portflolio-dark;
         }
         .after-p {
             &:after {
@@ -494,7 +494,7 @@ a {
         flex: 0 0 100px;
         max-width: 100px;
         margin: 0;
-        color: $px-theme;
+        color: $portflolio-theme;
         font-weight: 600;
         font-size: 20px;
         @include down-lg {
@@ -510,7 +510,7 @@ a {
         flex: 1;
         h5 {
             font-weight: 700;
-            color: $px-dark;
+            color: $portflolio-dark;
             font-size: 24px;
             line-height: 1;
             margin: 0 0 4px;
@@ -560,14 +560,14 @@ a {
         width: 123px;
         z-index: -1;
         border-radius: 30px;
-        background: rgba($px-theme, .1);
+        background: rgba($portflolio-theme, .1);
         opacity: 0;
         transition: ease all 0.35s;
     }
     &:hover {
         .feature-box-in {
             box-shadow: 0px 48px 60px rgba(119, 118, 156, 0.12);
-            background: $px-white;
+            background: $portflolio-white;
         }
         &:after {
             opacity: 1;
@@ -581,7 +581,7 @@ a {
         align-items: center;
         justify-content: center;
         font-size: 40px;
-        color: $px-theme;
+        color: $portflolio-theme;
         margin-bottom: 30px;
         &:after {
             content: "";
@@ -591,12 +591,12 @@ a {
             width: 44px;
             height: 44px;
             border-radius: 8px;
-            background: rgba($px-theme, .1);
+            background: rgba($portflolio-theme, .1);
         }
     }
     h5 {
         font-size: 20px;
-        color: $px-dark;
+        color: $portflolio-dark;
         font-weight: 600;
         margin-bottom: 15px;
     }
@@ -636,7 +636,7 @@ a {
         }
         h3 {
             font-size: 24px;
-            color: $px-dark;
+            color: $portflolio-dark;
             font-weight: 700;
             margin: 0;
         }
@@ -662,15 +662,15 @@ a {
         align-items: center;
         justify-content: center;
         font-size: 30px;
-        color: $px-theme;
+        color: $portflolio-theme;
         box-shadow: 0px 48px 60px rgba(119, 118, 156, 0.12);
-        background: $px-white;
+        background: $portflolio-white;
         margin-bottom: 30px;
         border-radius: 50%;
     }
     .star-box {
         justify-content: center;
-        color: $px-theme;
+        color: $portflolio-theme;
         margin-bottom: 30px;
         i {
             margin: 0 5px;
@@ -684,7 +684,7 @@ a {
     h6 {
         font-size: 25px;
         font-weight: 600;
-        color: $px-dark;
+        color: $portflolio-dark;
         margin-bottom: 20px;
         @include down-sm {
             font-size: 20px;
@@ -704,7 +704,7 @@ a {
         margin-bottom: 0;
         font-weight: 700;
         text-transform: uppercase;
-        color: $px-theme;
+        color: $portflolio-theme;
         @include down-sm {
             margin-top: 20px;
             font-size: 20px;
@@ -745,7 +745,7 @@ a {
         h3 {
             font-weight: 600;
             font-size: 25px;
-            color: $px-dark;
+            color: $portflolio-dark;
             margin-bottom: 12px;
         }
         p {
@@ -790,7 +790,7 @@ a {
         align-items: center;
         justify-content: center;
         font-size: 30px;
-        color: $px-dark;
+        color: $portflolio-dark;
     }
     .single-blog-content {
         padding: 30px;
@@ -802,7 +802,7 @@ a {
         h3 {
             font-weight: 600;
             font-size: 25px;
-            color: $px-dark;
+            color: $portflolio-dark;
             margin-bottom: 12px;
         }
         p {
@@ -812,10 +812,10 @@ a {
         }
         blockquote {
             font-size: 18px;
-            border-left: 5px solid $px-theme;
+            border-left: 5px solid $portflolio-theme;
             padding: 0 0 0 20px;
             margin: 0 0 30px;
-            color: $px-dark;
+            color: $portflolio-dark;
             font-weight: 400;
             line-height: 1.8;
         }
@@ -831,14 +831,14 @@ a {
             justify-content: center;
             border-radius: 3px;
             font-size: 17px;
-            background: $px-gray;
+            background: $portflolio-gray;
             border: 1px solid #eee;
-            color: $px-dark;
+            color: $portflolio-dark;
             margin-right: 10px;
             &:hover {
-                border: 1px solid $px-theme;
-                background: $px-theme;
-                color: $px-white;
+                border: 1px solid $portflolio-theme;
+                background: $portflolio-theme;
+                color: $portflolio-white;
             }
         }
     }
@@ -858,7 +858,7 @@ a {
         border-radius: 10px;
         font-size: 24px;
         font-weight: 600;
-        color: $px-dark;
+        color: $portflolio-dark;
         text-decoration: none;
         transition: ease all 0.35s;
         @include down-lg {
@@ -927,7 +927,7 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: $px-theme;
+    background: $portflolio-theme;
     position: fixed;
     bottom: 70px;
     right: 40px;
@@ -936,6 +936,6 @@ a {
         right: 15px;
     }
     &:hover {
-        background: $px-dark;
+        background: $portflolio-dark;
     }
 }

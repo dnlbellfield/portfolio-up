@@ -18,12 +18,12 @@
 
 }
 .px-btn-primary {
-	background-color: $px-theme;
-	color: $px-white;
-	border-color:  $px-theme;
+	background-color: $portflolio-theme;
+	color: $portflolio-white;
+	border-color:  $portflolio-theme;
 	&:hover {
-		background-color: $px-dark;
-		border-color:  $px-dark;
-		color: $px-white;
+		background-color: $portflolio-dark;
+		border-color:  $portflolio-dark;
+		color: $portflolio-white;
 	}
 }
