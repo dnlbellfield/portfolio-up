@@ -130,7 +130,7 @@
   :root {
     scroll-behavior: inherit; } }
 
-body, h1, h2, p {
+body, h1, h2, p, li, li a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #687898; }
