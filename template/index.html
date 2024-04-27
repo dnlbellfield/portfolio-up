@@ -36,7 +36,7 @@
     </div>
     <!-- End -->
     <!-- Header -->
-    <header class="main-header" >
+    <header class="main-header"  >
         <nav class="navbar navbar-expand-md one-page-nav">
             <div class="container">
                
@@ -50,10 +50,10 @@
                 <!-- Top Menu -->
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"><a class="nav-link" data-scroll-nav="0" href="#home"><span  class="text-xl">Home</span></a></li>
-                        <li class="nav-item"><a class="nav-link" data-scroll-nav="3" href="#skills"><span class="text-xl">Skills</span></a></li>
-                        <li class="nav-item"><a class="nav-link" data-scroll-nav="1" href="#about"><span class="text-xl">About</span></a></li>
-                        <li class="nav-item"><a class="nav-link" data-scroll-nav="4" href="#projects"><span class="text-xl">Projects</span></a></li>
+                        <li class="nav-item nav-link-scroll"><a class="nav-link nav-link-scroll" data-scroll-nav="0" href="#home"><span  class="text-xl">Home</span></a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-scroll" data-scroll-nav="3" href="#skills"><span class="text-xl">Skills</span></a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-scroll" data-scroll-nav="1" href="#about"><span class="text-xl">About</span></a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-scroll" data-scroll-nav="4" href="#projects"><span class="text-xl">Projects</span></a></li>
                         <!-- <li class="nav-item"><a class="nav-link" data-scroll-nav="5" href="#blog"><span>Blog</span></a></li>
                         <li class="nav-item"><a class="nav-link" data-scroll-nav="6" href="#contact"><span>Contact</span></a></li> -->
                         <!-- <li class="nav-item"><a class="nav-link" data-scroll-nav="2" href="#resume"><span>Resume</span></a></li> -->
@@ -73,7 +73,7 @@
     <main class="wrapper" >
    
 
-      <section   class="lg:pt-10 sm:pt-16">
+      <section id="home"  class="lg:pt-10 sm:pt-16">
    
           <div class="mx-auto max-w-6xl py-24 sm:px-6 sm:py-32 lg:px-6">
             <div class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex md:flex lg:gap-x-20 lg:px-24 lg:pt-0" style="background-image: url(assets/img/bg-2.jpg-.jpg); background-repeat:round;">
@@ -117,86 +117,80 @@
               <div class="section-heading">
                   <h3>Skills</h3>
               </div>
-              <div class="row gy-4">
-                  <div class="col-sm-6 col-lg-4">
-                      <div class="feature-box-01">
-                          <div class="feature-box-in">
-                              <div class="icon">
-                                  <img src="assets/img/icon.png" title="" alt="">
-                              </div>
-                              <div class="feature-content">
-                                  <h5>Jira</h5>
-                                  <p> Jira offers robust issue tracking and project management capabilities.</p>
-                              </div>
-                          </div>
-                      </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-4">
+                <div class="feature-box-01">
+                  <div class="feature-box-in">
+                    <div class="icon">
+                      <img src="assets/img/icon.png" alt="Icon" />
+                    </div>
+                    <div class="feature-content">
+                      <h5>Jira</h5>
+                      <p>Jira offers robust issue tracking and project management capabilities.</p>
+                    </div>
                   </div>
-                  <div class="col-sm-6 col-lg-4">
-                      <div class="feature-box-01">
-                          <div class="feature-box-in">
-                              <div class="icon">
-                                  <img src="assets/img/icon-1.png" title="" alt="">
-                              </div>
-                              <div class="feature-content">
-                                  <h5>Microsoft Project</h5>
-                                  <p>A comprehensive project management tool that provides scheduling, resource management, and reporting features.</p>
-                              </div>
-                          </div>
-                      </div>
+                </div>
+                
+                <div class="feature-box-01">
+                  <div class="feature-box-in">
+                    <div class="icon">
+                      <img src="assets/img/icon-1.png" alt="Icon" />
+                    </div>
+                    <div class="feature-content">
+                      <h5>Microsoft Project</h5>
+                      <p>A comprehensive project management tool that provides scheduling, resource management, and reporting features.</p>
+                    </div>
                   </div>
-                  <div class="col-sm-6 col-lg-4">
-                      <div class="feature-box-01">
-                          <div class="feature-box-in">
-                              <div class="icon">
-                                  <img src="assets/img/icon-2.png" title="" alt="">
-                              </div>
-                              <div class="feature-content">
-                                  <h5>ClickUp</h5>
-                                  <p> A versatile project management tool with features for task management, goal tracking, and time tracking.</p>
-                              </div>
-                          </div>
-                      </div>
+                </div>
+                
+                <div class="feature-box-01">
+                  <div class="feature-box-in">
+                    <div class="icon">
+                      <img src="assets/img/icon-2.png" alt="Icon" />
+                    </div>
+                    <div class="feature-content">
+                      <h5>ClickUp</h5>
+                      <p>A versatile project management tool with features for task management, goal tracking, and time tracking.</p>
+                    </div>
                   </div>
-                  <div class="col-sm-6 col-lg-4">
-                      <div class="feature-box-01">
-                          <div class="feature-box-in">
-                              <div class="icon">
-                                  <img src="assets/img/icon-3.png" title="" alt="">
-                              </div>
-                              <div class="feature-content">
-                                  <h5>Visual Studio Code</h5>
-                                  <p>A lightweight but powerful code editor for programming.</p>
-                              </div>
-                          </div>
-                      </div>
+                </div>
+              
+                <div class="feature-box-01">
+                  <div class="feature-box-in">
+                    <div class="icon">
+                      <img src="assets/img/icon-3.png" alt="Icon" />
+                    </div>
+                    <div class="feature-content">
+                      <h5>Visual Studio Code</h5>
+                      <p>A lightweight but powerful code editor for programming.</p>
+                    </div>
                   </div>
-                  <div class="col-sm-6 col-lg-4">
-                      <div class="feature-box-01">
-                          <div class="feature-box-in">
-                              <div class="icon">
-                                  <img src="assets/img/icon-4.png" title="" alt="">
-                              </div>
-                              <div class="feature-content">
-                                  <h5>Shopify</h5>
-                                  <p>e-commerce platform that provides everything merchants need to start, manage, and grow their online business.</p>
-                              </div>
-                          </div>
-                      </div>
+                </div>
+              
+                <div class="feature-box-01">
+                  <div class="feature-box-in">
+                    <div class="icon">
+                      <img src="assets/img/icon-4.png" alt="Icon" />
+                    </div>
+                    <div class="feature-content">
+                      <h5>Shopify</h5>
+                      <p>An e-commerce platform for starting, managing, and growing online businesses.</p>
+                    </div>
                   </div>
-                  <div class="col-sm-6 col-lg-4">
-                      <div class="feature-box-01">
-                          <div class="feature-box-in">
-                              <div class="icon">
-                                  <img src="assets/img/icon-5.png" title="" alt="">
-                              </div>
-                              <div class="feature-content">
-                                  <h5>Figma</h5>
-                                  <p>A collaborative interface design tool that enables real-time collaboration between designers, Figma is cloud-based and supports designing, prototyping, and collaboration in one platform.</p>
-                              </div>
-                          </div>
-                      </div>
+                </div>
+              
+                <div class="feature-box-01">
+                  <div class="feature-box-in">
+                    <div class="icon">
+                      <img src="assets/img/icon-5.png" alt="Icon" />
+                    </div>
+                    <div class="feature-content">
+                      <h5>Figma</h5>
+                      <p>A collaborative interface design tool for real-time collaboration.</p>
+                    </div>
                   </div>
+                </div>
               </div>
+              
           </div>
       </section>
       <!-- End Skills Section -->
@@ -346,8 +340,32 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/vendor/one-page/scrollIt.min.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/mail_send.js"></script>
+
     <!-- end -->
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll(".nav-link-scroll");
+
+  navLinks.forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      const targetId = link.getAttribute("href");
+
+      // Ensure the target element exists before attempting to scroll
+      const targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      } else {
+        console.warn(`Element with ID ${targetId} not found`);
+      }
+    });
+  });
+});
+
+
+    </script>
+
+ 
 </body>
 <!-- Body End -->
 
