@@ -534,14 +534,15 @@ a {
     color: #6A7897;
     margin-bottom: 30px; }
     .feature-box-01 .icon:after {
-      content: "";
+      /* content: "";
       position: absolute;
       top: -15px;
       left: -15px;
       width: 44px;
       height: 44px;
       border-radius: 8px;
-      background: rgba(24, 119, 242, 0.1); }
+      background: rgba(24, 119, 242, 0.1);  */
+    }
   .feature-box-01 h5 {
     font-size: 20px;
     color: #323258;
