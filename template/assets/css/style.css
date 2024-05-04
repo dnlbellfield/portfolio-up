@@ -444,7 +444,7 @@ a {
 
 .about-section .about-intro h2 {
   line-height: 1;
-  font-size: 48px;
+  font-size: 42px;
   color: #323258;
   margin-bottom: 18px; }
   @media (max-width: 1200px) {
@@ -455,12 +455,12 @@ a {
     font-weight: 800; }
 
 .about-section .about-intro h5 {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 500;
   margin-bottom: 24px; }
   @media (max-width: 1200px) {
     .about-section .about-intro h5 {
-      font-size: 20px;
+      font-size: 28px;
       margin-bottom: 18px; } }
 
 .about-section .about-intro .text {
@@ -469,11 +469,11 @@ a {
     .about-section .about-intro .text {
       padding-bottom: 20px; } }
   .about-section .about-intro .text p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.7; }
     @media (max-width: 1200px) {
       .about-section .about-intro .text p {
-        font-size: 16px; } }
+        font-size: 20px; } }
 
 .about-section .about-intro ul {
   margin: 0 0 40px;
@@ -522,8 +522,8 @@ a {
     opacity: 1; }
   .feature-box-01 .icon {
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-align: center;
@@ -570,7 +570,7 @@ a {
   .work-box .work-info {
     padding-top: 42px; }
     .work-box .work-info h6 {
-      font-size: 15px;
+      font-size: 18px;
       color: #687898;
       margin-bottom: 10px; }
     .work-box .work-info h3 {
