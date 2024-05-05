@@ -94,6 +94,7 @@
       }
 
       ul {
+        margin:0 auto;
         list-style: none;
         width: 100%;
         padding: 0;
@@ -103,7 +104,7 @@
       }
 
       ul a {
-        color: #000000;
+       
         text-decoration: none;
         font-family: 'inherit', sans-serif;
       }
@@ -114,6 +115,7 @@
         padding: 10px;
      font-size: 20px;
         transition: all 0.3s ease;
+        margin: 10px
       }
 
       ul a li:hover {
@@ -126,7 +128,7 @@
         font-size: 80px;
       }
 
-      @media only screen and (max-width: 610px) {
+      @media only screen and (max-width: 810px) {
         #mobile-menu {
           display: block;
         }
@@ -161,15 +163,15 @@
         <!-- Navigation : BEGIN  -->
         <header id="top" class=" bg-gray-50 text-white pt-10">
           
-          <div class="container mx-auto flex justify-between items-center">
+          <div class="container mx-auto flex  items-center">
             <nav class="w-full ">
-              <ul class="flex lg:space-x-12  md:space-x-10  sm:space-x-2 justify-center">
-                <li><a href="/template/index.html" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">Our Template</a></li>
-                <li><a href="#sign-up" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">Sign Up</a></li>
-                <li><a href="#how-it-works" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">How It Works</a></li>
+              <ul class="flex xl:space-x-16 lg:space-x-8  md:space-x-2  sm:space-x-2 justify-center">
+                <li><a href="/template/index.html" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">Our Template</a></li>
+                <li><a href="#sign-up" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">Sign Up</a></li>
+                <li><a href="#how-it-works" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">How It Works</a></li>
                 
-                <li><a href="#why-choose-us" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">Why Choose Us</a></li>
-                <li><a href="#buy-now" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4">Purchase</a></li>
+                <li><a href="#why-choose-us" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">Why Choose Us</a></li>
+                <li><a href="#buy-now" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">Purchase</a></li>
               </ul>
             </nav>
             <div  id="mobile-menu" class="w-full  hidden">
@@ -182,11 +184,12 @@
               </div>
               <ul class="menu  ">
                 
-                <a href="/template/index.html"><li  >Our Template</li></a>
-                <a href="#sign-up"><li  >Sign Up</li></a>
-                <a href="#how-it-works"><li>How It Works</li></a>
-                <a href="#why-choose-us"><li>Why Choose Us?</li></a>
-                <a href="#buy-now"><li>Purchase</li></a>
+                <a href="/template/index.html"><li class="bg-indigo-700 text-white rounded shadow-xl" >Our Template</li></a>
+                <a href="#sign-up"><li class="bg-indigo-700 text-white rounded shadow-xl" >Sign Up</li></a>
+                <a href="#how-it-works"><li class="bg-indigo-700 text-white rounded shadow-xl">How It Works</li></a>
+                <a href="#why-choose-us"><li class="bg-indigo-700 text-white rounded shadow-xl">Why Choose Us?</li></a>
+                <a href="#buy-now"><li class="bg-indigo-700 text-white rounded shadow-xl">Purchase</li></a>
+               
                  
                  
               </ul>
@@ -206,6 +209,9 @@
         <section id="landing" class="relative isolate px-6 pt-14 py-8 lg:px-8">
           <div class="mx-auto max-w-2xl pt-10 sm:pt-16 md:pt-24 lg:pt-32">
             <!-- opening copy and Image : BEGIN  -->
+            <div style="max-width: 300px; margin: 0 auto;">
+              <img src="images/portfolio-up-logo.avif" alt="" class="rounded-full shadow-2xl ">
+            </div>
             <div id="title" class="text-center">
               <!-- opening copy : BEGIN  -->
               <h1 class="  font-bold tracking-tight text-gray-900  ">Portfolio-Up</h1>
