@@ -15,6 +15,8 @@
 
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
       <link href="./output.css" rel="stylesheet">
+      <link href="/assets/css/nav-bar.css" rel="stylesheet">
+
       <script
           src="https://code.jquery.com/jquery-3.7.1.min.js"
           integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -146,6 +148,13 @@
         font-size: 28px;
       }
       }
+
+      ul.nav-bar li, li a span, span   {
+        font-family: figtree !important;
+        text-transform: uppercase;
+        font-weight: bold;
+
+      }
  
       </style>
             
@@ -159,7 +168,49 @@
   </head>
   <body class="bg-gray-50">
      
-
+<section >
+         <!-- newest nav begin  -->
+         <!-- page loading -->
+         <div id="loading">
+          <div class="load-circle"><span class="one"></span></div>
+      </div>
+      <!-- End -->
+      <!-- Header -->
+      <header class="main-header bg-white flex  justify-start md:justify-center mx-auto"  >
+          <nav class="navbar navbar-expand-md one-page-nav">
+              <div class="container ">
+                 
+                  <!-- Mobile Toggle -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle" aria-controls="navbar-collapse-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </button>
+                  <!-- / -->
+                  <!-- Top Menu -->
+                  <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                      <ul class="navbar-nav mx-auto" >
+                          <li class="nav-item nav-link-scroll"><a class="nav-link nav-link-scroll" data-scroll-nav="0" href="#home"><span  class="text-2xl" >Home</span></a></li>
+                          <li class="nav-item"><a class="nav-link nav-link-scroll" data-scroll-nav="3" href="#skills"><span class="text-2xl">Skills</span></a></li>
+                          <li class="nav-item"><a class="nav-link nav-link-scroll" data-scroll-nav="1" href="#about"><span class="text-2xl">About</span></a></li>
+                          <li class="nav-item"><a class="nav-link nav-link-scroll" data-scroll-nav="4" href="#projects"><span class="text-2xl">Projects</span></a></li>
+                          <!-- <li class="nav-item"><a class="nav-link" data-scroll-nav="5" href="#blog"><span>Blog</span></a></li>
+                          <li class="nav-item"><a class="nav-link" data-scroll-nav="6" href="#contact"><span>Contact</span></a></li> -->
+                          <!-- <li class="nav-item"><a class="nav-link" data-scroll-nav="2" href="#resume"><span>Resume</span></a></li> -->
+                      </ul>
+                  </div>
+                  <!-- / -->
+                  <!-- Mobile Toggle -->
+                  <!-- <div class="ms-auto d-lg-block d-none">
+                      <a href="#contact" data-scroll-nav="6" class="px-btn px-btn-primary">HIRE ME</a>
+                  </div> -->
+                  <!-- / -->
+              </div><!-- Container -->
+          </nav> <!-- Navbar -->
+      </header>
+      <!-- End Header -->
+            <!-- newest nav end  -->
+</section>
     <div class="bg-gray-50" >
 
       
@@ -168,64 +219,95 @@
 
 
       <div class="">
-        <!-- Navigation : BEGIN  -->
-        <header id="top" class=" bg-gray-50 text-white pt-10">
-          
-          <div class="container mx-auto flex  items-center">
-            <nav class="w-full ">
-              <ul class="flex xl:space-x-16 lg:space-x-8  md:space-x-2  sm:space-x-2 justify-center">
-                <li><a href="/template/index.html" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">Our Template</a></li>
-                <li><a href="#sign-up" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">Sign Up</a></li>
-                <li><a href="#how-it-works" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">How It Works</a></li>
-                
-                <li><a href="#why-choose-us" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">Why Choose Us</a></li>
-                <li><a href="#buy-now" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-xl py-3 px-4">Purchase</a></li>
-              </ul>
-            </nav>
-            <div  id="mobile-menu" class="w-full  hidden">
-
-              <!-- new nav  -->
-              <div class="icon">
-                <div class="hamburger"></div>
-                <div class="hamburger"></div>
-                <div class="hamburger"></div>
-              </div>
-              <ul class="menu  ">
-                
-                <a href="/template/index.html"><li class="bg-indigo-700 text-white rounded shadow-xl" >Our Template</li></a>
-                <a href="#sign-up"><li class="bg-indigo-700 text-white rounded shadow-xl" >Sign Up</li></a>
-                <a href="#how-it-works"><li class="bg-indigo-700 text-white rounded shadow-xl">How It Works</li></a>
-                <a href="#why-choose-us"><li class="bg-indigo-700 text-white rounded shadow-xl">Why Choose Us?</li></a>
-                <a href="#buy-now"><li class="bg-indigo-700 text-white rounded shadow-xl">Purchase</li></a>
-               
-                 
-                 
-              </ul>
-             
-              
-              <!-- new nav  -->
-            </div>
+       
 
 
+
+
+ 
+ <!-- new logo and intro begin  -->
+ <section>
+  <div class="bg-black">
+    <div class="mx-auto max-w-6xl xl:py-48 lg:py-40 md:py-24  sm:py-24 sm:px-6  lg:px-8">
+      <div class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+      
+        <div class="mx-auto max-w-md text-center lg:mx-2 lg:flex-auto lg:py-32   sm:py-12 py-12 ">
+          <div style="max-width: 300px; margin: 0 auto;" class="  ">
+            <img src="images/portfolio-up-logo.avif" alt="" class=" rounded-full shadow-2xl ">
           </div>
-          
-        </header>
-        <!-- Navigation : END  -->
+      </div>
 
-                    
+      <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left pb-20   ">
+        <h1 class="  font-bold tracking-tight text-white text-6xl  ">Portfolio-Up</h1>
+      <p class="mt-6 text-4xl leading-10 text-white  ">We build your portfolio.  
+      </p>
+      <p class="mt-6 text-4xl leading-10 text-white  ">You</span> attract opportunities.
+      </p>
+        <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start ">
+          
+          <a href="/template/index.html" target="_blank" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4   motion-reduce">View Template</a>
+        </div>
+        
+      </div>
+         
+      </div>
+
+      
+    </div>
+    
+  </div>
+  
+</section>
+ <!-- new logo and intro end  -->
+        
+        
+<!-- old logo and intro begin  -->
+<!-- <section id="landing" class="relative isolate px-6 pt-14 py-8 lg:px-8">
+  <div class="mx-auto max-w-2xl pt-10 sm:pt-16 md:pt-24 lg:pt-32">
+
+    <div style="max-width: 300px; margin: 0 auto;">
+      <img src="images/portfolio-up-logo.avif" alt="" class="rounded-full shadow-2xl ">
+    </div>
+    <div id="title" class="text-center">
+    
+      <h1 class="  font-bold tracking-tight text-gray-900  ">Portfolio-Up</h1>
+      <p class="mt-6 text-4xl leading-10 text-gray-600  ">We build your portfolio. <br> <span style="">You</span> attract opportunities.
+      </p>
+    
+  
+
+
+    
+      <div></div>
+      
+    </div>
+
+  </div>
+</section> -->
+<!-- old logo and intro end  -->
+
+
+        <!-- Landing section : BEGIN  -->         
+        
         <section >
-          <div class="bg-gray-50" >
+          <div class="bg-white" >
+          
             <div class="mx-auto max-w-6xl py-24 sm:px-6 sm:py-32 lg:px-8">     
               <main>          
             <!-- MasterSlider -->
-            <section id="P_masterslider" class="master-slider-parent  bg-gray-50 ms-slider-alt ms-parent-id-3 "  >
+            <section id="P_masterslider" class="master-slider-parent  bg-white ms-slider-alt ms-parent-id-3 "  >
         <!-- MasterSlider Main -->
-        <div id="masterslider" class="master-slider   ms-skin-minimal bg-gray-50 " >
+        
+        <div id="masterslider" class="master-slider   ms-skin-minimal bg-white " >
+    
+          <!-- <div class="bg-gray-50">
+            <p class=" py-10    font-bold tracking-tight text-gray-900 text-center text-6xl lg:pt-12">Our Templates</p>
+          </div> -->
            
           <!--Slide 1-->
-            <div class="ms-slide " data-delay="3" data-fill-mode="fill" >
+            <div class="ms-slide " data-delay="2" data-fill-mode="fill" >
             <img class="ms-layer transition-opacity duration-1000 ease-in delay-1000  " src="assets/vendor/masterslider/style/blank.gif"
-                data-src="images/1.png" alt="" data-ease="easeOutQuint" data-parallax="60"
+                data-src="images/natalie-SHOT.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
                 data-type="image" data-offset-x="0" data-offset-y="0" data-origin="mc"
                 data-position="normal" />
                 <!-- <div class="ms-layer msp-cn-169-5" data-ease="easeOutQuint" data-parallax="70" data-offset-x="-495"
@@ -238,9 +320,9 @@
                 </div> -->
               </div>
                 <!--Slide 2-->
-                <div class="ms-slide" data-delay="3" data-fill-mode="fill">
+                <div class="ms-slide" data-delay="2" data-fill-mode="fill">
                 <img class="ms-layer " src="assets/vendor/masterslider/style/blank.gif"
-                data-src="images/2.png" alt="" data-ease="easeOutQuint" data-parallax="60"
+                data-src="images/daniel-SHOT.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
                 data-type="image" data-offset-x="0" data-offset-y="0" data-origin="mc"
                 data-position="normal" />
                 <!-- <div class="ms-layer msp-cn-169-19" data-ease="easeOutQuint" data-parallax="70" data-offset-x="-474"
@@ -254,9 +336,9 @@
                     business</div> -->
                     </div>
                 <!--Slide 3-->
-                <div class="ms-slide" data-delay="3" data-fill-mode="fill">
+                <div class="ms-slide" data-delay="2" data-fill-mode="fill">
                 <img class="ms-layer" src="assets/vendor/masterslider/style/blank.gif"
-                data-src="images/3.png" alt="" data-ease="easeOutQuint" data-parallax="60"
+                data-src="images/shawn-SHOT.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
                 data-type="image" data-offset-x="0" data-offset-y="0" data-origin="mc"
                 data-position="normal" />
                 <!-- <div class="ms-layer msp-cn-169-26" data-ease="easeOutQuint" data-parallax="70" data-offset-x="-425"
@@ -268,6 +350,23 @@
                 data-offset-x="-55" data-offset-y="142" data-origin="mc" data-position="normal">digital
                 experience</div> -->
                 </div>
+
+                <!-- slide 4  -->
+                <div class="ms-slide" data-delay="2" data-fill-mode="fill">
+                  <img class="ms-layer " src="assets/vendor/masterslider/style/blank.gif"
+                  data-src="images/cole-SHOT.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
+                  data-type="image" data-offset-x="0" data-offset-y="0" data-origin="mc"
+                  data-position="normal" />
+                  <!-- <div class="ms-layer msp-cn-169-19" data-ease="easeOutQuint" data-parallax="70" data-offset-x="-474"
+                  data-offset-y="-40" data-origin="mc" data-position="normal">Our <strong>Motivation</strong>
+                  </div> -->
+                      <!-- <div class="ms-layer bg-body ms-title msp-cn-169-21" data-ease="easeOutQuint" data-parallax="80"
+                      data-offset-x="-175" data-offset-y="50" data-origin="mc" data-position="normal">The best
+                      solutions</div>
+                      <div class="ms-layer bg-body ms-title msp-cn-169-20" data-ease="easeOutQuint" data-parallax="0"
+                      data-offset-x="-125" data-offset-y="142" data-origin="mc" data-position="normal">for your
+                      business</div> -->
+                      </div>
                 </div>
             <!-- END MasterSlider Main -->
             </section>
@@ -279,61 +378,11 @@
   
         
 
-        <!-- Landing section : BEGIN  -->
-        <section id="landing" class="relative isolate px-6 pt-14 py-8 lg:px-8">
-          <div class="mx-auto max-w-2xl pt-10 sm:pt-16 md:pt-24 lg:pt-32">
-            <!-- opening copy and Image : BEGIN  -->
-            <div style="max-width: 300px; margin: 0 auto;">
-              <img src="images/portfolio-up-logo.avif" alt="" class="rounded-full shadow-2xl ">
-            </div>
-            <div id="title" class="text-center">
-              <!-- opening copy : BEGIN  -->
-              <h1 class="  font-bold tracking-tight text-gray-900  ">Portfolio-Up</h1>
-              <p class="mt-6 text-4xl leading-10 text-gray-600  ">We build your portfolio. <br> <span style="">You</span> attract opportunities.
-              </p>
-              <!-- opening copy : END  -->
-          
-
-
-              <!-- Image : BEGIN -->
-              <div></div>
-                <!-- Image : END -->
-            </div>
-            <!-- opening copy and Image  : END -->
-          </div>
-        </section>
-        <!-- Landing section : BEGIN  -->
 
         <!-- sample : BEGIN  -->
         
         <!-- sample : END  -->
-        <section>
-          <div class="bg-gray-50">
-            <div class="mx-auto max-w-6xl py-24 sm:px-6 sm:py-32 lg:px-8">
-              <div class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-              
-                <div class="mx-auto max-w-md text-center lg:mx- lg:flex-auto lg:py-32   sm:py-12 py-12 ">
-                  <a href="https://www.portfolio-up.com/template"><img class="rounded-xl " src="images/updated-temp-img.jpg" alt="Our Template"></a>
-              </div>
 
-              <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left pb-20   ">
-                <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Build your portfolio. <br>Get the results you want.</h2>
-                <p class="mt-6 text-2xl leading-8 text-gray-300">Get inspired: See a preview of what's in store for you!</p>
-                <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start ">
-                  
-                  <a href="/template/index.html" target="_blank" class="rounded-full bg-indigo-700 bg-gradient-to-r from-indigo-500 hover:bg-indigo-900 text-white text-md py-2 px-4   motion-reduce">View Template</a>
-                </div>
-                
-              </div>
-                 
-              </div>
-
-              
-            </div>
-            
-          </div>
-          
-        </section>
 
 
         <!-- Sign up : BEGIN -->
@@ -483,6 +532,9 @@
     </div>   
 
     <section>
+      <a href="#" id="back_to_top" class="back-to-top ">
+        <img src="images/arrow.svg" title="" alt="" class="">
+    </a>
       <footer>
         <p class="text-center py-6">
           2024 Portfolio-Up.com
@@ -507,14 +559,14 @@ masterslider.control('bullets'    ,{ autohide:true, overVideo:true, dir:'h', ali
 // masterslider.control('timebar'    ,{ autohide:false, overVideo:true, align:'bottom', color:'#000000'  , width:2 });
 // slider setup
 masterslider.setup("masterslider", {
-width           : 1366,
-height          : 768,
+width           : 1200,
+height          : 862,
 minHeight       : 0,
 space           : 0,
 start           : 1,
 grabCursor      : false,
-swipe           : true,
-mouse           : true,
+swipe           : false,
+mouse           : false,
 keyboard        : false,
 layout          : "fullwidth",
 wheel           : false,
@@ -538,9 +590,15 @@ fullscreenMargin: 0,
 speed           : 4,
 dir             : "h",
 parallaxMode    : 'swipe',
-view            : "mask"
+view            : "flow"
 });
 </script>
+<script src="assets/js/new-jquery.js"></script> 
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/custom.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/scroll.js"></script>
+
 
 
   </body>
