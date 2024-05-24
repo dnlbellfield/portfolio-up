@@ -1278,6 +1278,13 @@ view            : "flow"
                         $('#myModal').css('display', 'none');
                     });
 
+
+                     // Function to detect if the device is mobile
+    function isMobileDevice() {
+        return /Mobi|Android/i.test(navigator.userAgent);
+    }
+
+
                     // Show modal with a timeout only for mobile devices
     if (isMobileDevice()) {
         setTimeout(function() {
