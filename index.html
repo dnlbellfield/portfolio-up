@@ -1277,6 +1277,16 @@ view            : "flow"
                     $('#closeModal').on('click', function() {
                         $('#myModal').css('display', 'none');
                     });
+
+                    // Show modal with a timeout only for mobile devices
+    if (isMobileDevice()) {
+        setTimeout(function() {
+            if (!sessionStorage.getItem('modalShown')) {
+                showModal();
+                sessionStorage.setItem('modalShown', 'true');
+            }
+        }, 5000); // Set timeout to 5 seconds (5000 milliseconds)
+    }
             
                      // Detect if user is about to leave the page
         $(document).mouseleave(function(e) {
