@@ -106,7 +106,7 @@
         font-family: 'inherit', sans-serif;
         text-align: center;
         padding: 10px;
-     font-size: 20px;
+        font-size: 20px;
         transition: all 0.3s ease;
         margin: 10px
       }
@@ -214,7 +214,7 @@
             background-color: #fff;
             margin: 15% auto;
             padding: 20px;
-            width: 70%;
+            width: 60%;
             position: relative;
         }
 
@@ -241,7 +241,11 @@
             top: 20%;
             left: 50%;
             transform: translate(-50%, -50%);
+            width: 90%;
+            max-width: 900px;
         }
+
+        
 
         @media only screen and (max-width: 600px) {
 
@@ -257,8 +261,8 @@
         }
         #modalContent {
             background-color: #fff;
-            margin: 20% auto;
-            padding: 20px;
+            margin: 30% auto;
+            padding: 3%;
           
             width: 90%;
             
@@ -298,6 +302,7 @@
     width: 100%;
     height: 100%;
     border: 0;
+    padding: 4%;
   }
       </style>
             
@@ -388,10 +393,10 @@
                       
                       <!--Slide 1-->
                         <div class="ms-slide " data-delay="2" data-fill-mode="fill" >
-                        <img class="ms-layer transition-opacity duration-1000 ease-in delay-1000  " src="assets/vendor/masterslider/style/blank.gif"
-                            data-src="images/natalie-SHOT.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
+                          <a href="#templates" ><img class="ms-layer transition-opacity duration-1000 ease-in delay-1000  " src="assets/vendor/masterslider/style/blank.gif"
+                            data-src="images/_natalie.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
                             data-type="image" data-offset-x="0" data-offset-y="0" data-origin="mc"
-                            data-position="normal" />
+                            data-position="normal" /></a>
                             <!-- <div class="ms-layer msp-cn-169-5" data-ease="easeOutQuint" data-parallax="70" data-offset-x="-495"
                             data-offset-y="-40" data-origin="mc" data-position="normal">What we <strong>Do</strong></div>
                             <div class="ms-layer bg-body ms-title msp-cn-169-14" data-ease="easeOutQuint" data-parallax="80"
@@ -403,10 +408,10 @@
                           </div>
                             <!--Slide 2-->
                             <div class="ms-slide" data-delay="2" data-fill-mode="fill">
-                            <img class="ms-layer " src="assets/vendor/masterslider/style/blank.gif"
-                            data-src="images/daniel-SHOT.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
+                              <a href="#templates"> <img class="ms-layer " src="assets/vendor/masterslider/style/blank.gif"
+                            data-src="images/_daniel.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
                             data-type="image" data-offset-x="0" data-offset-y="0" data-origin="mc"
-                            data-position="normal" />
+                            data-position="normal" /></a>
                             <!-- <div class="ms-layer msp-cn-169-19" data-ease="easeOutQuint" data-parallax="70" data-offset-x="-474"
                             data-offset-y="-40" data-origin="mc" data-position="normal">Our <strong>Motivation</strong>
                             </div> -->
@@ -419,10 +424,10 @@
                                 </div>
                             <!--Slide 3-->
                             <div class="ms-slide" data-delay="2" data-fill-mode="fill">
-                            <img class="ms-layer" src="assets/vendor/masterslider/style/blank.gif"
-                            data-src="images/shawn-SHOT.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
+                              <a href="#templates" ><img class="ms-layer" src="assets/vendor/masterslider/style/blank.gif"
+                            data-src="images/_shawn.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
                             data-type="image" data-offset-x="0" data-offset-y="0" data-origin="mc"
-                            data-position="normal" />
+                            data-position="normal" /></a>
                             <!-- <div class="ms-layer msp-cn-169-26" data-ease="easeOutQuint" data-parallax="70" data-offset-x="-425"
                             data-offset-y="-40" data-origin="mc" data-position="normal"><strong>Vision</strong></div>
                             <div class="ms-layer bg-body ms-title msp-cn-169-28" data-ease="easeOutQuint" data-parallax="80"
@@ -435,10 +440,10 @@
               
                             <!-- slide 4  -->
                             <div class="ms-slide" data-delay="2" data-fill-mode="fill">
-                              <img class="ms-layer " src="assets/vendor/masterslider/style/blank.gif"
-                              data-src="images/cole-SHOT.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
+                              <a href="#templates" ><img class="ms-layer " src="assets/vendor/masterslider/style/blank.gif"
+                              data-src="images/_cole.avif" alt="" data-ease="easeOutQuint" data-parallax="60"
                               data-type="image" data-offset-x="0" data-offset-y="0" data-origin="mc"
-                              data-position="normal" />
+                              data-position="normal" /></a>
                               <!-- <div class="ms-layer msp-cn-169-19" data-ease="easeOutQuint" data-parallax="70" data-offset-x="-474"
                               data-offset-y="-40" data-origin="mc" data-position="normal">Our <strong>Motivation</strong>
                               </div> -->
@@ -499,10 +504,10 @@
     </div>
 
     <!-- modal  -->
-    <div id="myModal">
-      <div id="modalContent" class="rounded-xl bg-black mx-auto">
+    <div id="myModal" class="">
+      <div id="modalContent" class=" bg-black rounded-xl  mx-auto">
           <span id="closeModal">&times;</span>
-          <h1 class=" text-white text-4xl   mx-auto fw-bolder text-center text-gradient-light 2xl:text-5xl xl:text-5xl lg:text-5xl text-4xl py-8">Before you go, check out this video</h1>
+          <h1 class=" text-white text-4xl   mx-auto fw-bolder text-center text-gradient-light 2xl:text-5xl xl:text-5xl lg:text-5xl text-4xl pt-4 mx-4">Before you go, check out this video</h1>
           <div class="video-container">
             <iframe src="https://www.youtube.com/embed/2ri8h6H7s8w?si=QGzNIoVdDGxMPkSk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
@@ -512,17 +517,17 @@
   </div>
     <!-- modal  -->
 
-                <section class="position-relative bg-gradient-primary text-white overflow-hidden">
+                <section class="position-relative bg-gradient-primary text-white overflow-hidden py-4">
 
                 <!--Divider-->
              
                 <div class="container py-9 py-lg-12 position-relative">
                     <div class="row  position-relative">
                         <div class="col-12 col-lg-9 mx-auto text-center">
-                            <h3 class="mb-4 display-5 fw-lighter" data-aos="fade-down">
+                            <h3 class="mb-4 display-5   font-bold" data-aos="fade-down">
                               Shine in the job market<br>
                                  <span
-                                    class="fw-bolder d-inline-block  position-relative text-gradient-light 2xl:text-6xl xl:text-6xl text-5xl py-4">Get more interviews now
+                                    class="fw-bolder d-inline-block  position-relative text-gradient-light 2xl:text-6xl xl:text-6xl text-5xl py-4">Get more interviews 
 
                                 </span> 
                             </h3>
@@ -533,8 +538,8 @@
                             </p> -->
                             <div data-aos="fade-up" data-aos-delay="150">
                                 <a href="#sign-up" class="btn btn-outline-white btn-lg btn-hover-text">
-                                    <span class="btn-hover-label label-default">Sign Up</span>
-                                    <span class="btn-hover-label label-hover">Sign Up</span>
+                                    <span class="btn-hover-label label-default text-2xl">Sign Up</span>
+                                    <span class="btn-hover-label label-hover text-2xl">Sign Up</span>
                                 </a>
                             </div>
                         </div>
@@ -596,105 +601,102 @@
                 <div class="row mb-5 mb-lg-7 align-items-end">
                     <div class="col-lg-8">
                         <h2 class="mb-3 text-black    2xl:text-6xl xl:text-6xl text-5xl   font-bold brand-name" data-aos="fade-right">Templates</h2>
-                        <p class="mb-0 lead w-lg-75" data-aos="fade-right" data-aos-delay="150">
-                            We worked with world's top companies in a very short time There are combined alignment
-                            methods
+                        <p class="mb-0   text-2xl text-black py-3 px-3" data-aos="fade-right" data-aos-delay="150">
+                      Engage viewers with an easy-to-navigate and aesthetically pleasing portfolio layout.
                         </p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
+
+                  <div id="card-1" class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
+                    <!--Card-->
+                    <a href="https://natalie-park.netlify.app/"
+                        class="d-block rounded-3 bg-body shadow-sm position-relative overflow-hidden card-hover hover-lift-lg hover-shadow-lg">
+                        <div class="overflow-hidden bg-gradient-light position-relative">
+                            <img src="images/_natalie.avif" alt="" class="img-fluid img-zoom">
+                            <div
+                                class="card-overlay py-4 px-3 text-white d-flex align-items-end justify-content-center">
+                                <ul class="list-unstyled overlay-items">
+                                    <li>
+                                        <span class="btn py-lg-3 px-lg-6 btn-white">View Full Porfolio</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body p-4 p-lg-5">
+                            <h6 class="text-black text-2xl mb-2">Calming gradient background <br> with blue text</h6>
+                            <h5 class="mb-0 text-xl">The combination of soft gradient colors and bold blue text strikes a balance between  professional yet modern aesthetic and appeals to today's job market.
+                            </h5>
+                        </div>
+                    </a>
+                </div>
+                <div id="card-2" class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="250">
+                    <!--Card-->
+                    <a href="https://daniel-bellfield-dev.netlify.app/"
+                        class="d-block rounded-3 shadow-sm bg-body text-reset position-relative overflow-hidden card-hover hover-lift-lg hover-shadow-lg">
+                        <div class="overflow-hidden bg-gradient-light position-relative">
+                            <img src="images/_daniel.avif" alt="" class="img-fluid img-zoom">
+                            <div
+                                class="card-overlay py-4 px-3 text-white d-flex align-items-end justify-content-center">
+                                <ul class="list-unstyled overlay-items">
+                                    <li>
+                                        <span class="btn py-lg-3 px-lg-6 btn-white">View Full Porfolio</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body p-4 p-lg-5">
+                            <h6 class="text-black text-2xl mb-2">Sophisticated gradient background <br> with white text</h6>
+                            <h5 class="mb-0 text-xl">The harmonious blend of dark green and light gray provides a visually appealing backdrop  and the bold white lettering ensures your content is clear and readable.
+                            </h5>
+                        </div>
+                    </a>
+                </div>
+                    <div  id="card-3" class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
                         <!--Card-->
-                        <a href="#!"
+                        <a href="https://shawn-adams.netlify.app/"
                             class="d-block rounded-3 shadow-sm bg-body position-relative overflow-hidden card-hover hover-lift-lg hover-shadow-lg">
                             <div class="overflow-hidden bg-gradient-light position-relative">
-                                <img src="images/cole-SHOT.avif" alt="" class="img-fluid img-zoom">
+                                <img src="images/_shawn.avif" alt="" class="img-fluid img-zoom">
                                 <div
                                     class="card-overlay py-4 px-3 text-white d-flex align-items-end justify-content-center">
                                     <ul class="list-unstyled overlay-items">
                                         <li>
-                                            <span class="btn py-lg-3 px-lg-6 btn-white">View case study</span>
+                                            <span class="btn py-lg-3 px-lg-6 btn-white">View Full Porfolio</span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body p-4 p-lg-5">
-                                <h6 class="text-black text-xl mb-2">Print design . Branding</h6>
-                                <h5 class="mb-0">Duis commonly aute irure dolor in reprehenderit in
-                                    voluptate velit
+                                <h6 class="text-black text-2xl mb-2">Soft gradient background  <br> with dark text</h6>
+                                <h5 class="mb-0 text-xl">The seamless blend of light pink and light purple creates a visually soothing gradient and fosters a sense of calm and professionalism.
                                 </h5>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="150">
+                    <div id="card-4" class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="150">
                         <!--Card-->
-                        <a href="#!"
+                        <a href="https://cole-miller.netlify.app/"
                             class="d-block rounded-3 shadow-sm bg-body text-reset position-relative overflow-hidden card-hover hover-lift-lg hover-shadow-lg">
                             <div class="overflow-hidden bg-gradient-light position-relative">
-                                <img src="images/daniel-SHOT.avif" alt="" class="img-fluid img-zoom">
+                                <img src="images/_cole.avif" alt="" class="img-fluid img-zoom">
                                 <div
                                     class="card-overlay py-4 px-3 text-white d-flex align-items-end justify-content-center">
                                     <ul class="list-unstyled overlay-items">
                                         <li>
-                                            <span class="btn py-lg-3 px-lg-6 btn-white">View case study</span>
+                                            <span class="btn py-lg-3 px-lg-6 btn-white">View Full Porfolio</span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card-body p-4 p-lg-5">
-                                <h6 class="text-black text-xl mb-2">Marketing</h6>
-                                <h5 class="mb-0">Duis commonly aute irure dolor in reprehenderit in
-                                    voluptate velit
+                                <h6 class="text-black text-2xl mb-2">Bold gradient background <br>with white text</h6>
+                                <h5 class="mb-0 text-xl">The seamless blend of black transitioning into light gray creates a visually striking gradient that draws the viewer's eye. This gradient not only adds depth to the design but also enhances the visual hierarchy, making key information stand out.
                                 </h5>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
-                        <!--Card-->
-                        <a href="#!"
-                            class="d-block rounded-3 bg-body shadow-sm position-relative overflow-hidden card-hover hover-lift-lg hover-shadow-lg">
-                            <div class="overflow-hidden bg-gradient-light position-relative">
-                                <img src="images/natalie-SHOT.avif" alt="" class="img-fluid img-zoom">
-                                <div
-                                    class="card-overlay py-4 px-3 text-white d-flex align-items-end justify-content-center">
-                                    <ul class="list-unstyled overlay-items">
-                                        <li>
-                                            <span class="btn py-lg-3 px-lg-6 btn-white">View case study</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body p-4 p-lg-5">
-                                <h6 class="text-black text-xl mb-2">Print design . Branding</h6>
-                                <h5 class="mb-0">Duis commonly aute irure dolor in reprehenderit in
-                                    voluptate velit
-                                </h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="250">
-                        <!--Card-->
-                        <a href="#!"
-                            class="d-block rounded-3 shadow-sm bg-body text-reset position-relative overflow-hidden card-hover hover-lift-lg hover-shadow-lg">
-                            <div class="overflow-hidden bg-gradient-light position-relative">
-                                <img src="images/shawn-SHOT.avif" alt="" class="img-fluid img-zoom">
-                                <div
-                                    class="card-overlay py-4 px-3 text-white d-flex align-items-end justify-content-center">
-                                    <ul class="list-unstyled overlay-items">
-                                        <li>
-                                            <span class="btn py-lg-3 px-lg-6 btn-white">View case study</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body p-4 p-lg-5">
-                                <h6 class="text-black text-xl mb-2">E-commerce Development</h6>
-                                <h5 class="mb-0">Duis commonly aute irure dolor in reprehenderit in
-                                    voluptate velit
-                                </h5>
-                            </div>
-                        </a>
-                    </div>
+
                 </div>
                
         </section>
@@ -1065,6 +1067,8 @@ masterslider.control('arrows'     ,{ autohide:true, overVideo:true  });
 masterslider.control('bullets'    ,{ autohide:true, overVideo:true, dir:'h', align:'bottom', space:10 , margin:26  });
 // masterslider.control('timebar'    ,{ autohide:false, overVideo:true, align:'bottom', color:'#000000'  , width:2 });
 // slider setup
+
+
 masterslider.setup("masterslider", {
 width           : 1200,
 height          : 862,
@@ -1296,7 +1300,7 @@ view            : "flow"
                 showModal();
                 sessionStorage.setItem('modalShown', 'true');
             }
-        }, 5000); // Set timeout to 5 seconds (5000 milliseconds)
+        }, 9000); // Set timeout to 9 seconds (9000 milliseconds)
     }
             
                      // Detect if user is about to leave the page
