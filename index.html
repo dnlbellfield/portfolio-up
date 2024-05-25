@@ -1296,20 +1296,20 @@ view            : "flow"
 
 
                      // Function to detect if the device is mobile
-    function isMobileDevice() {
-        return /Mobi|Android/i.test(navigator.userAgent);
-    }
+    // function isMobileDevice() {
+    //     return /Mobi|Android/i.test(navigator.userAgent);
+    // }
 
 
                     // Show modal with a timeout only for mobile devices
-    if (isMobileDevice()) {
-        setTimeout(function() {
-            if (!sessionStorage.getItem('modalShown')) {
-                showModal();
-                sessionStorage.setItem('modalShown', 'true');
-            }
-        }, 9000); // Set timeout to 9 seconds (9000 milliseconds)
-    }
+    // if (isMobileDevice()) {
+    //     setTimeout(function() {
+    //         if (!sessionStorage.getItem('modalShown')) {
+    //             showModal();
+    //             sessionStorage.setItem('modalShown', 'true');
+    //         }
+    //     }, 9000); // Set timeout to 9 seconds (9000 milliseconds)
+    // }
             
                      // Detect if user is about to leave the page
         $(document).mouseleave(function(e) {
