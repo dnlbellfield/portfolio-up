@@ -45,7 +45,7 @@
       color: #323258; }
       @media (max-width:767px) {
         .main-header .navbar-nav > .nav-item > .nav-link {
-          padding: 10px 0;
+          padding: 10px 20px;
           line-height: normal; } }
       .main-header .navbar-nav > .nav-item > .nav-link:hover, .main-header .navbar-nav > .nav-item > .nav-link.active {
         color: #6A7897; }
