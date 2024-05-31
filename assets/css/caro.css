@@ -1,10 +1,9 @@
 
 .carousel-container {
-  border-radius: 30px;
+  /* border-radius: 30px; */
   overflow: hidden;
   max-width: 800px;
   position: relative;
-  box-shadow: 0 0 30px -20px #223344;
   margin: auto;
   z-index: 0;
 }
