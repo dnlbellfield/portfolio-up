@@ -106,12 +106,12 @@
   -webkit-animation-name: animate;
   -webkit-animation-duration: 1s;
   animation-name: animate;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 @keyframes animate {
   from {
-    transform: scale(1.1) rotateY(10deg);
+    transform: scale(1.1) rotateY(5deg);
   }
   to {
     transform: scale(1) rotateY(0deg);
