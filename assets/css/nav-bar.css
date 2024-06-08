@@ -178,8 +178,8 @@ a {
       height: 46px;
       margin: 1px;
       border-radius: 50%;
-      border: 5px solid #fff;
-      border-color: #fff transparent #fff transparent;
+      border: 5px solid #6A7897;
+      border-color: #6A7897 transparent #6A7897 transparent;
       -webkit-animation: lds-dual-ring 1.2s linear infinite;
               animation: lds-dual-ring 1.2s linear infinite; }
 
