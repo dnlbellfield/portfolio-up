@@ -13,6 +13,8 @@
         document.getElementById("loading").style.display = "none";
     }
 
+    
+
     /*--------------------
         * Menu Close
     ----------------------*/
