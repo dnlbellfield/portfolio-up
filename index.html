@@ -1083,23 +1083,7 @@
 
     }
 
-    /* carousel padding mobile  */
-    @media only screen and (max-width: 600px) {
-      h2.brand-name {
-        font-size: 50px;
-      }
-
-      h2.brand-name-2 {
-        font-size: 38px;
-      }
-
-      .carousel-container-mob {
-        padding: 20px 10px 0 !important;
-
-      }
-
-
-    }
+ 
   </style>
   <style>
     /* Modal styles */
@@ -1155,6 +1139,23 @@
 
 
 
+    @media only screen and (min-width: 600px) {
+
+      .mob-subheader {
+        width: 100%;
+        max-width: 600px !important;
+        text-align: center;
+        margin: 0 auto;
+ 
+      }
+      .mob-subheader-noncentered {
+        width: 100%;
+        max-width: 600px !important;
+        text-align: left;
+        
+ 
+      }
+    }
     @media only screen and (max-width: 600px) {
 
       #myModal {
@@ -1178,6 +1179,24 @@
 
         text-align: center;
       }
+
+      h2.brand-name {
+        font-size: 50px;
+      }
+
+      h2.brand-name-2 {
+        font-size: 38px;
+      }
+
+      h2.mob-subheader {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+
     }
 
     .seva-form {
@@ -1229,6 +1248,7 @@
  margin: 0 auto;
 
 }
+
   </style>
   <style>
     /* Dark mode media query */
@@ -1373,11 +1393,10 @@
 
             <h2 class="   py-4 pt-6 text-black     2xl:text-8xl xl:text-8xl lg:text-7xl md:text-7xl text-5xl  text-center  font-bold  "
               data-aos="fade-up" data-aos-delay="150"> Portfolio-Up</h2>
-            <h2 class=" 2xl:text-5xl xl:text5xl lg:text-5xl md:text-5xl text-4xl  text-blue-500 text-center font-semibold   mx-auto px-6" data-aos="fade-up"
-              data-aos-delay="350">Attract more job opportunities
+            <h2 class=" 2xl:text-5xl xl:text5xl lg:text-5xl md:text-5xl text-4xl  text-blue-500 text-center font-semibold   mx-auto px-6 mob-subheader" data-aos="fade-up"
+              data-aos-delay="350" style=" width: 100%; max-width: 100%; margin: 0 auto;">Attract more job opportunities.
             </h2>
-            <p class="py-4  2xl:text-3xl xl:text-3xl  text-2xl  text-black text-center mx-auto " style=" width: 100%; max-width: 65%;">We create portfolio websites and make it
-              easier for you to secure more interviews. </p>
+            <p class="py-4  2xl:text-3xl xl:text-3xl  text-2xl  text-black text-center mx-auto mob-subheader" style=" width: 100%; max-width: 80%;">Create a portfolio website  that elevates your job search. </p>
             <!-- Stand out in a crowded job market and turn views into job offers.  -->
 
             <div class="  mx-auto text-center pt-2 mb-10">
@@ -1427,8 +1446,8 @@
     <section class="position-relative overflow-hidden shadow-lg bg-black text-white py-6">
 
       <div class="container py-9 py-lg-11 position-relative z-1">
-        <h2 class="   py-4 pt-6 text-white     2xl:text-7xl xl:text-7xl lg:text-6xl md:text-6xl text-5xl  text-center  font-semibold  "
-              data-aos="fade-up" data-aos-delay="150" > Portfolio-Up <br> Benefits</h2>
+        <!-- <h2 class="   py-6 pt-4 text-white     2xl:text-6xl xl:text-6xl lg:text-5xl md:text-5xl text-5xl   text-center  font-semibold  "
+              data-aos="fade-up" data-aos-delay="150" > Portfolio-Up <br> Benefits</h2> -->
 
         <div class="row">
           <div class="col-lg-9 col-md-10 mx-auto text-center">
@@ -1480,18 +1499,18 @@
           <h2
             class="py-4 text-black 2xl:text-7xl xl:text-7xl text-6xl text-left font-bold brand-name aos-init aos-animate tracking-tight"
             data-aos="fade-up" data-aos-delay="150"> Designs</h2>
-          <h2 class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl text-3xl text-blue-500 text-left font-semibold  aos-init aos-animate"
-            data-aos="fade-up" data-aos-delay="350" style="width: 100%; max-width: 670px; margin: 0;">Engage viewers with visually appealing layouts
+            <h2 class=" 2xl:text-5xl xl:text5xl lg:text-5xl md:text-5xl text-4xl  text-blue-500 text-left font-semibold   mob-subheader-noncentered" data-aos="fade-up"
+            data-aos-delay="350"  >Engage viewers with layouts that convert. 
           </h2>
           <p class="py-4  2xl:text-3xl xl:text3xl lg:text-3xl md:text-3xl text-2xl text-black text-left  "   style="width: 100%; max-width: 750px; margin: 0;">Our
-            portfolios are designed to highlight your professional accomplishments in a modern, clean format. </p>
+            portfolios are designed to communicate your professional journey effectively.</p>
           <!-- Stand out in a crowded job market and turn views into job offers.  -->
           <!-- <div class="  mx-auto position-relative  ">
             <img src="images/lap-top-2-np.avif" alt="" class=" " style="width: 100%; margin: 0 auto;">
         </div> -->
 
 
-          <div class=" position-relative py-5 ">
+          <div class=" position-relative 2xl:py-16 xl:py-12 lg:py-10 md:py-8 sm:py-6 ">
             <img src="images/landing_1.avif" alt="" class=" pb-6" style="width: 100%; max-width: 1500px;  margin: 0;">
           </div>
         </div>
@@ -1680,57 +1699,45 @@
 
     <div class="max-w-7xl mx-auto  container">
 
-      <div class="mx-auto  text-center max-w-4xl  " style="width: 100%; margin: 0 auto;">
+      <div class="mx-auto  text-left   max-w-5xl px-3" style="width: 100%; margin: 0 auto;">
 
         <h2
-          class="py-4 text-black 2xl:text-7xl xl:text-7xl text-6xl text-center font-bold brand-name aos-init aos-animate"
-          data-aos="fade-up" data-aos-delay="150"> How It works</h2>
-        <h2 class="2xl:text-5xl text-5xl text-blue-500 text-center font-bold brand-name-2 aos-init aos-animate"
-          data-aos="fade-up" data-aos-delay="350">Engage viewers with visually appealing layouts
+          class="py-4 text-black 2xl:text-7xl xl:text-7xl text-6xl text-left font-bold brand-name aos-init aos-animate tracking-tight"
+          data-aos="fade-up" data-aos-delay="150">  How It works</h2>
+          <h2 class=" 2xl:text-5xl xl:text5xl lg:text-5xl md:text-5xl text-4xl  text-blue-500 text-left font-semibold   mob-subheader-noncentered" data-aos="fade-up"
+          data-aos-delay="350"  >Easy process, <br> great outcomes.
         </h2>
-        <p class="py-4  2xl:text-3xl  text-3xl  text-black text-center  " style="width: 100%; margin: 0 auto;">Our
-          portfolios are designed to highlight your professional accomplishments in a modern, clean format. </p>
-        <!-- Stand out in a crowded job market and turn views into job offers.  -->
+        <p class="py-4  2xl:text-3xl xl:text3xl lg:text-3xl md:text-3xl text-2xl text-black text-left  "   style="width: 100%; max-width: 750px; margin: 0;">Create your perfect portfolio in a few steps.</p>
 
-
+        <div class=" position-relative 2xl:py-16 xl:py-12 lg:py-10 md:py-8 sm:py-6 ">
+          <img src="images/landing_1.avif" alt="" class=" pb-6" style="width: 100%; max-width: 1500px;  margin: 0;">
+        </div>
+      </div>
 
       </div>
 
 
 
-      <section class="    " style="width: 100%; ">
+      <section class="   px-6 " style="width: 100%; ">
         <div class="bg-white   mob-full-width mx-auto pt-0" style="width:50%;">
 
 
-          <div class="mx-auto max-w-6xl     px-2  2xl:py-10 xl:py-10 lg:py-6 md:py-6 sm:py-0  py-0 " data-aos="fade-up">
-
-            <div
-              class="relative isolate overflow-hidden bg-white px-0 pt-0 2xl:pt-4 xl:pt-4 lg:pt-4 md:pt-2 sm:pt-0  sm:rounded-3xl   ">
-
-
-              <div class="  mx-auto position-relative  ">
-                <img src="images/np_landing_aboutme.avif" alt="" class=" " style="width: 100%; max-width: 780px; margin: 0 auto;">
-              </div>
-
-
-            </div>
-
-          </div>
+        
 
 
         </div>
-        <div style="width:50%;  " class="  mob-full-width mx-auto py-4">
+        <div style="width:100%;  " class="    mx-auto py-4">
 
 
 
-          <div class="  2xl:py-20 xl:py-20 lg:py-6 md:py-4 sm:py-0  py-0 px-2 mx-auto" data-aos="fade-up">
+          <div class="  2xl:py-20 xl:py-20 lg:py-6 md:py-4 sm:py-0  py-0 px-3 mx-auto" data-aos="fade-up">
 
 
-            <div class="    position-relative pt-4 max-w-3xl mx-auto">
+            <div class="     pt-0 max-w-4xl mx-auto px-3">
               <!--Subtitle-->
               <div class="d-flex align-items-center mb-3 aos-init aos-animate" data-aos="fade-up">
                 <div class="border-top border-primary width-3x border-2"></div>
-                <h6 class="mb-0 ms-3 text-muted text-black text-4xl" >The process</h6>
+                <h6 class="mb-0 ms-3   text-black text-4xl" >Getting started</h6>
               </div>
               <!-- <h2 class="display-5 me-lg-n9 mb-4 aos-init aos-animate text-black text-2xl" data-aos="fade-down">How does it
                 works?</h2> -->
@@ -1744,10 +1751,12 @@
                     </span>
 
                     <div class="step-content">
-                      <h6 class="mb-1 text-black text-2xl">Collect ideas</h6>
-                      <p class="mb-0 text-black text-2xl">Nulla vitae elit libero pharetra augue dapibus. Praesent
-                        commodo
-                        cursus.</p>
+                      <h6 class="mb-1 text-black text-2xl font-bold">Share Your Information</h6>
+                      <p class="mb-0 text-black text-2xl font-normal">Provide your career details, professional history, and two images of yourself. The content comes from you—your input is essential for us to create a concise and impactful portfolio that truly represents your unique background and professional goals.
+
+
+
+                      </p>
                     </div>
                   </div>
 
@@ -1761,10 +1770,10 @@
                     </span>
 
                     <div class="step-content">
-                      <h6 class="mb-1 text-black text-2xl">Data analysis</h6>
-                      <p class="mb-0 text-black text-2xl">Nulla vitae elit libero pharetra augue dapibus. Praesent
-                        commodo
-                        cursus.</p>
+                      <h6 class="mb-1 text-black text-2xl font-bold">Analyze & Highlight</h6>
+                      <p class="mb-0 text-black text-2xl font-normal">We review your information to identify and emphasize your key strengths. We also process any digital assets you provide to ensure your portfolio is ready for production.
+
+                      </p>
                     </div>
                   </div>
 
@@ -1778,11 +1787,9 @@
                     </span>
 
                     <div class="step-content">
-                      <h6 class="mb-1 text-black text-2xl">
-                        Finalize product</h6>
-                      <p class="mb-0 text-black text-2xl">Nulla vitae elit libero pharetra augue dapibus. Praesent
-                        commodo
-                        cursus.</p>
+                      <h6 class="mb-1 text-black text-2xl font-bold">
+                        Design & Launch</h6>
+                      <p class="mb-0 text-black text-2xl font-normal">We create and publish your personalized portfolio website, uploading your images and highlighting your professional journey. Your new portfolio will showcase your skills and experience, making you stand out to potential employers.</p>
                     </div>
                   </div>
 
